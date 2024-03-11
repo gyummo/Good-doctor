@@ -1,0 +1,51 @@
+.image.fit img {
+    filter: brightness(80%); 
+    width: 100%;
+}
+
+header p {
+    color: #525050;
+}
+
+.spotlight.alt {
+    background: #1e1f23;
+    color: rgba(255, 255, 255, 0.25);
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    text-align: left;
+}
+
+.wrapper.style2 header {
+    background: #1e1f23;
+    border-radius: 4px 4px 0 0;
+}
+
+.spotlight .image img {
+    width: 100%;
+}
+
+#header > .logo span {
+    font-weight: 300;
+    font-size: 1rem;
+    display: block;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+body {
+    background: rgba(2, 7, 32, 0.25)
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+video {align-items: center;}
